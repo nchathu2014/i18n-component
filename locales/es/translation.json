@@ -1,0 +1,13 @@
+{
+
+  "labels":{
+    "test":"Soy una etiqueta"
+  },
+
+
+  "button":{
+      "save":"ahorrar"
+    }
+
+
+}

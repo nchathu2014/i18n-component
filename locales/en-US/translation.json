@@ -1,0 +1,12 @@
+{
+
+    "labels":{
+        "test":"I am a label"
+    },
+
+    "button":{
+      "save":"SAVE"
+    }
+
+
+}

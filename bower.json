@@ -1,0 +1,27 @@
+{
+  "name": "i18n-component",
+  "description": "This is a localization tryout with polymer",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "polymer",
+    "localization"
+  ],
+  "authors": [
+    "T.D.Nuwan Chathuranga"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~1.2.3",
+    "iron-ajax": "PolymerElements/iron-ajax#~1.1.1"
+  }
+}

@@ -1,0 +1,30 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="i18n-component.html">
+
+<dom-module id="i18n-test">
+    <template>
+        <style>
+            :host{
+                display: block;
+            }
+        </style>
+
+       <i18n-component i18-n="{{i18n}}"></i18n-component>
+
+       <labels>{{i18n.labels.test}}</labels>
+        <br>
+       <button>{{i18n.button.save}}</button>
+
+    </template>
+    <script>
+        (function(){
+            'use strict'
+            Polymer({
+                is:"i18n-test",
+                ready:function(){
+                    console.log(this.localName+" ready...");
+                }
+            });
+        }());
+    </script>
+</dom-module>

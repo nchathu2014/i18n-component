@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="i18n-test.html">
+    <style>
+
+        body{
+            margin: 0;
+            padding:0;
+        }
+
+        .mainWrapper{
+            background-color: mediumvioletred;
+            font-size: 27px;
+            padding: 10px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="mainWrapper">
+   Polymer Internationalization (i18n) Component
+</div>
+
+<p>
+<ul>
+    <li><b>Priority Precedence :</b>
+        <ul>
+            <li> Query parameter(Eg: lang=fr)</li>
+            <li> Browser language</li>
+        </ul>
+    </li>
+    <br>
+    <li><b>Usage :</b>
+        <ul>
+            <li>For <b>Static content management</b></li>
+            <li>Create folder structure as <b>locales/en-US/translation.json</b> for english based on the language you have to create
+            folder under the locales with a particular translation.json</li>
+            <li>import <b>&lti18m-component&gt</b> as a child component to your customize component</li>
+            <li>add <b>i18n</b> as a parameter as <b>&lti18m-component i18-n="{{i18n}}" &gt</b></li>
+            <li>Then call to words as yor structure in <b>translation.json</b></li>
+        </ul>
+    </li>
+    <br>
+    <li><b>Demo :</b>
+        <i18n-test i18-n="i18n"></i18n-test>
+    </li>
+
+</ul>
+
+</p>
+
+
+
+
+</body>
+</html>

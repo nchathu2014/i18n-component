@@ -1,0 +1,11 @@
+{
+  "labels":{
+    "test":"Je suis une étiquette"
+  },
+
+    "button":{
+      "save":"enregistrer"
+    }
+
+
+}
